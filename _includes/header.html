@@ -1,0 +1,22 @@
+<header>
+  <div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+      <a class="pure-menu-heading" href="{{ site.baseurl }}/">
+        <img class="pure-img-responsive menu-heading-logo" alt="DIYbio Logo"
+          src="{{site.data.img.diybio}}">
+        {{ site.title }}
+      </a>
+
+      <ul class="pure-menu-list">
+        {% for page in site.pages reversed %}
+          {% if page.title %}
+          <li class="pure-menu-item">
+            <a class="pure-menu-link" href="{{ page.url | prepend: site.baseurl }}" style="color:#FFFFFF;">
+            {{ page.title }}</a>
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</header>

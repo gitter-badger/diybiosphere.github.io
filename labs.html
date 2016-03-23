@@ -1,0 +1,20 @@
+---
+layout: default
+title: Labs
+---
+<div class="home">
+
+  <h1 class="page-heading">Labs</h1>
+
+  <ul class="post-list">
+    {% for lab in site.labs %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ lab.url | prepend: site.baseurl }}">{{ lab.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

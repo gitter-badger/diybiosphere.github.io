@@ -1,0 +1,66 @@
+# Site settings
+title: DIY biosphere
+email: contact@contact.com
+description: >
+  This page is intended to give to the DIYbio community a humble space
+  to keep sharing and creating together.
+  This is a Grabriela Sanchez's initiative (contact@contact.com).
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "diybiosphere.github.io"
+permalink: pretty
+twitter_username:
+github_username:  "DIYbiosphere"
+
+# Where things are
+source:       .
+destination:  ./_site
+plugins_dir:  ./_plugins
+layouts_dir:  ./_layouts
+data_dir:     ./_data
+includes_dir: ./_includes
+collections:
+  groups:
+    title: Groups
+    output: true
+    permalink: /groups/
+  projects:
+    title: Projects
+    output: true
+    permalink: /projects/
+  labs:
+    title: Labs
+    output: true
+    permalink: /labs/
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: landing
+  -
+    scope:
+      type: posts
+    values:
+      layout: post
+  -
+    scope:
+      type: groups
+    values:
+      layout: group
+      permalink: /groups/:title
+  -
+    scope:
+      type: projects
+    values:
+      layout: project
+      permalink: /projects/:title
+  -
+    scope:
+      type: labs
+    values:
+      layout: lab
+      permalink: /labs/:title
+
+# Build settings
+markdown: kramdown

@@ -1,0 +1,32 @@
+.hero-background {
+  background: url(../img/city-girl.jpg) no-repeat;
+  background-size: cover;
+  /*-webkit-filter: blur(2px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);*/
+}
+
+.menu-heading-logo {
+  width: 4em;
+  margin-bottom: -18px;
+  margin-top: -18px;
+  margin-right: 2px;
+}
+
+.username {
+  text-decoration: none;
+}
+
+.text-small {
+  font-size: .75em;
+  line-height: 100%;
+}
+
+.content-card {
+  width: 90%;
+  text-align: center;
+  background: #F2F2F2;
+  margin-left: 5%;
+}
