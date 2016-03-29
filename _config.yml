@@ -6,7 +6,7 @@ description: >
   to keep sharing and creating together.
   This is a Grabriela Sanchez's initiative (contact@contact.com).
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "diybiosphere.github.io"
+# url: "diybiosphere.github.io"
 permalink: pretty
 twitter_username:
 github_username:  "DIYbiosphere"
@@ -47,19 +47,19 @@ defaults:
     scope:
       type: groups
     values:
-      layout: group
+      layout: entry
       permalink: /groups/:title
   -
     scope:
       type: projects
     values:
-      layout: project
+      layout: entry
       permalink: /projects/:title
   -
     scope:
       type: labs
     values:
-      layout: lab
+      layout: entry
       permalink: /labs/:title
 
 # Build settings
