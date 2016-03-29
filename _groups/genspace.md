@@ -1,29 +1,18 @@
 ---
-title: Second Lab
-website: "http://www.google.com"
-since: since
-status: status
-family: family
-location: location
-address: address
-open_hours: open_hours
-membership_fee: membership_fee
-discipline: discipline
-sponsors: sponsors
-agency_partner: agency_partner
-about: about
-history: history
-futures: futures
-background: background
-purpose: purpose
-impacts: impacts
-challenges: challenges
-people: people
-projects: projects
-groups: groups
-labs: labs
-contact: contact
-media: media
+title: Genspace
+website: "http://localhost:4000/projects/first-proyect"
+since: 1992-10-29
+status: Active
+family: No idea
+location: Brooklyn, New York
+address: Spring & West 10
+open_hours: 9 - 5
+membership_fee: Free
+discipline: Biosecurity
+sponsors: Nike, Adidas
+agency_partner: Genoma Labs
+labs: first-lab,second-lab
+contact: contact@contact.com
 ---
 
 # Genspace
